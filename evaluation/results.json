@@ -1,0 +1,7 @@
+{
+  "threshold": 0.6,
+  "extraction_accuracy": 0.9286,
+  "match_precision": 0.48,
+  "match_recall": 0.8929,
+  "additional_metrics": {}
+}

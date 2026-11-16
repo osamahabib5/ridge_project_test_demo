@@ -1,0 +1,25 @@
+# Secrets — never commit a real key
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Grader answer key — do not read or commit
+answer_key/
+
+# Office lock / temp files
+~$*
+*.tmp
+
+# Checker artifacts
+ridgeline-quote-desk.zip
+check_report.json
