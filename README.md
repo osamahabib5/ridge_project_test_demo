@@ -95,6 +95,8 @@ flowchart TD
     R --> S[ridgeline-quote-desk.zip]
 ```
 
+A rendered copy of this diagram is available at [ris_workflow.png](ris_workflow.png).
+
 - **Failure isolation** — every file and every line is wrapped in try/except; a failure becomes a line with `flags=["unreadable_line"]` (or `["stub"]` for images) so the run always emits valid JSON.
 - **Secrets** — `DEEPSEEK_API_KEY` is read from `.env` via python-dotenv; `.gitignore` excludes `.env`, and no secret is ever logged or committed.
 - **Reproducibility** — deterministic stage ordering and line numbering; `outputs/` and `evaluation/results.json` are regenerated identically on each run.
