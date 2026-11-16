@@ -1,7 +1,13 @@
 {
-  "threshold": 0.6,
-  "extraction_accuracy": 0.9286,
-  "match_precision": 0.48,
-  "match_recall": 0.8929,
-  "additional_metrics": {}
+  "threshold": 0.8,
+  "extraction_accuracy": 0.85,
+  "match_precision": 1.0,
+  "match_recall": 0.8823529411764706,
+  "additional_metrics": {
+    "cross_reference_hit_rate": 0.6111111111111112,
+    "latency": {
+      "total_seconds": 0.0,
+      "per_rfq_seconds": {}
+    }
+  }
 }
