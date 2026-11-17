@@ -398,6 +398,7 @@ def main(argv=None):
             print(f"  {m}")
     else:
         print("Line-level mismatches: none")
+    print()
     return 0
 
 
